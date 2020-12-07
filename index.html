@@ -68,8 +68,6 @@
                     </p>
 
                     <ul>
-                        <li>Maak een nieuwe branch: <strong>afbeeldingen</strong></li>
-                        <li>Controleer dat je in deze branch zit</li>
                         <li>Vervang bovenaan de pagina &quot;Naam van student&quot; door jouw eigen naam (id=naam)</li>
                         <li>Commit deze wijziging</li>
                     </ul>
@@ -91,7 +89,7 @@
                     <h3>Opdracht</h3>
                     <p>
                         Voor je begint met het aanpassen van de code,
-                        zorg dat je in de <strong>develop</strong> branch zit.
+                        zorg dat je in de <strong>master</strong> branch zit.
                     </p>
                     <ul>
                         <li>Maak een nieuwe branch: <strong>afbeeldingen</strong></li>
@@ -185,7 +183,7 @@
                         <p>Soms is er bij een conflict geen keuzen, maar moet je handmatig de wijzigingen samen voegen.</p>
                         <p>
                             Donaties:
-                            <span id="donaties">&euro; 0,00</span>
+                            <span id="donaties">&euro; 1,99</span>
                         </p>
                     </div>
                     <div class="meta">
@@ -198,7 +196,7 @@
                     <ul>
                         <li>Zorg dat je in de <strong>master</strong> branch zit</li>
                         <li>Begin een nieuwe branch: <strong>gulle-gever</strong></li>
-                        <li>Pas het hierboven aangegeven donatiebedrag (id=winnaar) aan naar: <em>100,00</em></li>
+                        <li>Pas het hierboven aangegeven donatiebedrag (id=donaties) aan naar: <em>100,00</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
@@ -206,7 +204,7 @@
                     <ul>
                         <li>Ga terug naar de <strong>master</strong> branch</li>
                         <li>Begin een nieuwe feature branch: <strong>dagobert-duck</strong></li>
-                        <li>Pas het hierboven aangegeven donatiebedrag (id=winnaar) aan naar: <em>1,99</em></li>
+                        <li>Pas het hierboven aangegeven donatiebedrag (id=donaties) aan naar: <em>1,99</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
@@ -218,7 +216,7 @@
                             <strong>dagobert-duck</strong> naar
                             <strong>master</strong>.
                         </li>
-                        <li>Controleer of superman de winnaar is (refresh de pagina).</li>
+                        <li>Controleer of de donatie 1,99 is (refresh de pagina).</li>
                         <li>
                             <em>Merge</em> de aanpassingen van 
                             <strong>gulle-gever</strong> naar
@@ -237,6 +235,7 @@
                             </pre>
                         </li>
                         <li>Zorg dat de donaties bij elkaar worden opgeteld.</li>
+                        <li>Controleer of het donatiebedrag correct is (refresh de pagina).</li>
                         <li>Commit de merge</li>
                         <li>Push de <strong>master</strong> branch naar github</li>
                     </ul>
@@ -280,7 +279,13 @@
                         <li>
                             <em>Rebase</em> de branch bovenop de <strong>master</strong>  branch
                         </li>
-                        <li>Los het conflict op, controleer het resultaat en maak een commit</li>
+                        <li>
+                            Los het conflict op, controleer het resultaat en maak een commit.<br>
+                            In het eind resultaat heb je dan een <strong>h6</strong> met daarin <em>Rebase</em>
+                            <pre><code>
+&lt;h6 id="branch"&gt;rebase&lt;/h6&gt;
+                            </code></pre>
+                        </li>
                         <li>
                             <em>Merge</em> de aanpassingen van 
                             <strong>rebase</strong> naar
@@ -306,7 +311,7 @@
                     <h3>Opdracht</h3>
                     <p>
                         Voor je begint met het aanpassen van de code,
-                        zorg dat je in de <strong>develop</strong> branch zit.
+                        zorg dat je in de <strong>master</strong> branch zit.
                     </p>
                     <ul>
                         <li>Verhoog de versie (id=version) met 0.1</li>
